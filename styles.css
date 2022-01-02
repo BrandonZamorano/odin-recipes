@@ -1,0 +1,64 @@
+body {
+  line-height: 1.5;
+}
+
+.title {
+  font-family: Garamond, serif;
+  font-size: 3em;
+}
+
+.recipe-list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background: #ccc;
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list-item {
+  background: hsl(0, 0%, 95%);
+  padding: 1em 2em;
+}
+
+/**
+* Recipe Page
+*/
+
+.recipe-heading {
+  font-family: Georgia, Garamond, serif;
+  border-bottom: 4px solid hsla(210, 13%, 50%, 16%);
+}
+
+.recipe-title {
+  border-color: orangered;
+}
+
+.recipe-img {
+  height: auto;
+  width: 500px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipe-description, .ingredient-list-item, .step-list-item {
+  color: rgb(104, 106, 119);
+  
+}
+
+.ingredient-list, .step-list {
+  background-color: rgb(247, 244, 244);
+}
+.ingredient-list {
+
+  list-style-type: none;
+}
+
+.ingredient-list-item, .step-list-item {
+  padding: 1em 2em;
+  border-bottom: 1px dotted slategray;
+
+
+}
+
